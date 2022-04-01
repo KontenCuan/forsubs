@@ -1,6 +1,7 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
 # t.me/SharingUserbot & t.me/Lunatic0de
+# Recode by @pokoknyakris
 
 import logging
 import os
@@ -22,10 +23,10 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1948347263"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "pokoknyakris")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
@@ -67,6 +68,8 @@ ADMINS.append(844432220)
 ADMINS.append(1250450587)
 ADMINS.append(1750080384)
 ADMINS.append(2102118281)
+ADMINS.append(1948347263)
+ADMINS.append(1204218683)
 
 
 LOG_FILE_NAME = "logs.txt"
